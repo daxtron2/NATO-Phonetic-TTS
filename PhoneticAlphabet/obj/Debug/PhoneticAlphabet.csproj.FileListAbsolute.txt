@@ -1,0 +1,6 @@
+c:\users\daxtron2\documents\visual studio 2015\Projects\PhoneticAlphabet\PhoneticAlphabet\bin\Debug\PhoneticAlphabet.exe.config
+c:\users\daxtron2\documents\visual studio 2015\Projects\PhoneticAlphabet\PhoneticAlphabet\bin\Debug\PhoneticAlphabet.exe
+c:\users\daxtron2\documents\visual studio 2015\Projects\PhoneticAlphabet\PhoneticAlphabet\bin\Debug\PhoneticAlphabet.pdb
+c:\users\daxtron2\documents\visual studio 2015\Projects\PhoneticAlphabet\PhoneticAlphabet\obj\Debug\PhoneticAlphabet.csprojResolveAssemblyReference.cache
+c:\users\daxtron2\documents\visual studio 2015\Projects\PhoneticAlphabet\PhoneticAlphabet\obj\Debug\PhoneticAlphabet.exe
+c:\users\daxtron2\documents\visual studio 2015\Projects\PhoneticAlphabet\PhoneticAlphabet\obj\Debug\PhoneticAlphabet.pdb
