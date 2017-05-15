@@ -4,3 +4,9 @@ c:\users\daxtron2\documents\visual studio 2015\Projects\PhoneticAlphabet\Phoneti
 c:\users\daxtron2\documents\visual studio 2015\Projects\PhoneticAlphabet\PhoneticAlphabet\obj\Debug\PhoneticAlphabet.csprojResolveAssemblyReference.cache
 c:\users\daxtron2\documents\visual studio 2015\Projects\PhoneticAlphabet\PhoneticAlphabet\obj\Debug\PhoneticAlphabet.exe
 c:\users\daxtron2\documents\visual studio 2015\Projects\PhoneticAlphabet\PhoneticAlphabet\obj\Debug\PhoneticAlphabet.pdb
+C:\Users\daxtron2\Documents\nato-phonetic-tts\PhoneticAlphabet\bin\Debug\PhoneticAlphabet.exe.config
+C:\Users\daxtron2\Documents\nato-phonetic-tts\PhoneticAlphabet\obj\Debug\PhoneticAlphabet.exe
+C:\Users\daxtron2\Documents\nato-phonetic-tts\PhoneticAlphabet\obj\Debug\PhoneticAlphabet.pdb
+C:\Users\daxtron2\Documents\nato-phonetic-tts\PhoneticAlphabet\bin\Debug\PhoneticAlphabet.exe
+C:\Users\daxtron2\Documents\nato-phonetic-tts\PhoneticAlphabet\bin\Debug\PhoneticAlphabet.pdb
+C:\Users\daxtron2\Documents\nato-phonetic-tts\PhoneticAlphabet\obj\Debug\PhoneticAlphabet.csprojResolveAssemblyReference.cache

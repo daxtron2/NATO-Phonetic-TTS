@@ -35,7 +35,7 @@ namespace PhoneticAlphabet
                     for(int i = 0; i <word.Length; i++)
                     {
                         PlayLetter(word[i]);
-                        Thread.Sleep(1250);
+                        Thread.Sleep(1000);
                     }
                 }
             }
