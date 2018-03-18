@@ -12,49 +12,68 @@ namespace PhoneticAlphabet
     {
         static void Main(string[] args)
         {
-            Console.Write("Press 1 for instant, anything for word: ");
-            int resp = 0;
-            int.TryParse(Console.ReadLine(), out resp);
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.Title = "NATO PHONETIC TTS";
 
-            if (resp == 1)
+            string resp = "";
+            bool notRecognized = false;
+            do
             {
-                while (true)
+                Console.CursorVisible = true;
+                Console.Clear();
+
+                string nr = (notRecognized ? "COMMAND NOT RECOGNIZED\n" : "");
+                Console.Write("ENTER 'INSTANT' FOR INSTANT READOUT\n" +
+                              "ENTER 'SEQUENCE' FOR SEQUENCE READOUT\n" +
+                              "ENTER 'QUIT' TO QUIT\n" +
+                              "{0}INPUT: ", nr);
+                resp = Console.ReadLine().ToUpper();
+                bool stay = true;
+                switch (resp)
                 {
-                    Console.Clear();
-                    Console.Write("Enter a letter: ");
-                    PlayLetter(Console.ReadKey().Key);
+                    case "INSTANT":
+                        Console.Clear();
+                        Console.CursorVisible = false;
+                        Console.WriteLine("PRESS 'ESC' TO RETURN TO SELECTION MENU\nPRESS A LETTER TO READ IT OUT");
+                        while (stay)
+                        {
+                            ConsoleKey ck = Console.ReadKey(true).Key;
+                            if (ck == ConsoleKey.Escape) { stay = false; break; }
+                            PlayLetter(ck);
+                        }
+                        break;
+                    case "SEQUENCE":
+                        while (stay)
+                        {
+                            Console.Clear();
+                            Console.WriteLine("ENTER '~' TO RETURN TO SELECTION MENU");
+                            Console.Write("ENTER ANY STRING TO BE READ: ");
+                            char[] word = Console.ReadLine().ToCharArray();
+                            if (word.Length == 1 && word[0] == '~') { stay = false; break; }
+                            for (int i = 0; i < word.Length; i++)
+                            {
+                                PlayLetter(word[i]);
+                            }
+                        }
+                        break;
+                    default:
+                        notRecognized = true;
+                        break;
                 }
-            }
-            else
-            {
-                while (true)
-                {
-                    Console.Clear();
-                    Console.Write("Enter a word: ");
-                    char[] word = Console.ReadLine().ToCharArray();
-                    for(int i = 0; i <word.Length; i++)
-                    {
-                        PlayLetter(word[i]);
-                    }
-                }
-            }
+            } while (resp != "QUIT");
         }
 
         static void PlayLetter(char letter)
         {
-            string location = letter.ToString();
-            location = location.ToLower();
-            location += ".wav";
-            SoundPlayer sp = new SoundPlayer(location);
-            sp.PlaySync();            
+            var soundFile = Properties.Resources.ResourceManager.GetStream(letter.ToString());
+            SoundPlayer sp = new SoundPlayer(soundFile);
+            sp.PlaySync();
         }
 
         static void PlayLetter(ConsoleKey key)
         {
-            string location = key.ToString();
-            location = location.ToLower();
-            location += ".wav";
-            SoundPlayer sp = new SoundPlayer(location);
+            var soundFile = Properties.Resources.ResourceManager.GetStream(key.ToString().ToLower());
+            SoundPlayer sp = new SoundPlayer(soundFile);
             sp.Play();
         }
     }

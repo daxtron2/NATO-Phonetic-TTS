@@ -8,7 +8,7 @@
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>PhoneticAlphabet</RootNamespace>
-    <AssemblyName>PhoneticAlphabet</AssemblyName>
+    <AssemblyName>NATO Phonetic TTS</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>NATO.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -45,9 +48,50 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="letters\a.wav" />
+    <EmbeddedResource Include="letters\b.wav" />
+    <EmbeddedResource Include="letters\c.wav" />
+    <EmbeddedResource Include="letters\d.wav" />
+    <EmbeddedResource Include="letters\e.wav" />
+    <EmbeddedResource Include="letters\f.wav" />
+    <EmbeddedResource Include="letters\g.wav" />
+    <EmbeddedResource Include="letters\h.wav" />
+    <EmbeddedResource Include="letters\i.wav" />
+    <EmbeddedResource Include="letters\j.wav" />
+    <EmbeddedResource Include="letters\k.wav" />
+    <EmbeddedResource Include="letters\l.wav" />
+    <EmbeddedResource Include="letters\m.wav" />
+    <EmbeddedResource Include="letters\n.wav" />
+    <EmbeddedResource Include="letters\o.wav" />
+    <EmbeddedResource Include="letters\p.wav" />
+    <EmbeddedResource Include="letters\q.wav" />
+    <EmbeddedResource Include="letters\r.wav" />
+    <EmbeddedResource Include="letters\s.wav" />
+    <EmbeddedResource Include="letters\t.wav" />
+    <EmbeddedResource Include="letters\u.wav" />
+    <EmbeddedResource Include="letters\v.wav" />
+    <EmbeddedResource Include="letters\w.wav" />
+    <EmbeddedResource Include="letters\x.wav" />
+    <EmbeddedResource Include="letters\y.wav" />
+    <EmbeddedResource Include="letters\z.wav" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="NATO.ico" />
+    <Content Include="nato_tGL_icon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

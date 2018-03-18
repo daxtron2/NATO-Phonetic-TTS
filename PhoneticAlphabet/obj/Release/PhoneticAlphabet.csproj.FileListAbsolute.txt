@@ -1,0 +1,9 @@
+C:\Users\daxtron2\Documents\GitHub\NATO-Phonetic-TTS\PhoneticAlphabet\obj\Release\PhoneticAlphabet.Properties.Resources.resources
+C:\Users\daxtron2\Documents\GitHub\NATO-Phonetic-TTS\PhoneticAlphabet\obj\Release\PhoneticAlphabet.csproj.GenerateResource.cache
+C:\Users\daxtron2\Documents\GitHub\NATO-Phonetic-TTS\PhoneticAlphabet\obj\Release\PhoneticAlphabet.csproj.CoreCompileInputs.cache
+C:\Users\daxtron2\Documents\GitHub\NATO-Phonetic-TTS\PhoneticAlphabet\bin\Release\NATO Phonetic TTS.exe.config
+C:\Users\daxtron2\Documents\GitHub\NATO-Phonetic-TTS\PhoneticAlphabet\bin\Release\NATO Phonetic TTS.exe
+C:\Users\daxtron2\Documents\GitHub\NATO-Phonetic-TTS\PhoneticAlphabet\bin\Release\NATO Phonetic TTS.pdb
+C:\Users\daxtron2\Documents\GitHub\NATO-Phonetic-TTS\PhoneticAlphabet\obj\Release\PhoneticAlphabet.csprojResolveAssemblyReference.cache
+C:\Users\daxtron2\Documents\GitHub\NATO-Phonetic-TTS\PhoneticAlphabet\obj\Release\NATO Phonetic TTS.exe
+C:\Users\daxtron2\Documents\GitHub\NATO-Phonetic-TTS\PhoneticAlphabet\obj\Release\NATO Phonetic TTS.pdb
